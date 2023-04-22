@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* TABS */
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: #ed8209 !important
+}
+
+.nav-pills .nav-link{
+    color: black;
+}
+
+/* ESTILOS FORMULARIO */
+form{
+    font-size: 12px !important;
+}
+ input{
+    font-size: 12px !important;
+    padding: 2px 4px !important;
+ }
+
+.form-label{
+
+    font-size: 12px;
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+}
+
+.form-check label{
+    margin: 0;
+    padding: 0;
+}
+
+#formulario{
+    background-color: rgb(215, 207, 207);
+    border-radius: 10px;
+}
+
+#btn-submit{
+    background: #ed8209 !important;
+    border: none;
+}
+
+.oculto{
+ display: none;
+}
+
+
+.alert-oculto{
+   display: none;
+}
+
+#inputArea, #inputArea option{
+    font-size: 12px !important;
+}
+
+
+
+/* BOTON ELIMINAR */
+.btn-eliminar{
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    padding:0;
+}
+.btn-eliminar:hover{
+    transform: scale(1.1);
+}
+
+.btn-eliminar i{
+    color:red;
+    font-size: 15px;
+}
+.btn-eliminar i:hover{
+    transform: scale(1.1);
+}
+/* BOTON ACTUALIZAR */
+.btn-actualizar{
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    padding:0;
+}
+
+.btn-actualizar:hover{
+    transform: scale(1.1);
+}
+
+.btn-actualizar i{
+    color:rgb(5, 200, 5);
+    font-size: 15px;    
+}
+
+.btn-actualizar i:hover{
+    transform: scale(1.1);
+}
+
+
+.input-novalido{
+    display:none
+}
+
+
+
